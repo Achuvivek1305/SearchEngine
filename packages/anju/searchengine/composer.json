@@ -1,0 +1,16 @@
+{
+    "name": "anju/searchengine",
+    "description": "library for crawling search engine results and extracting metadata",
+    "type": "library",
+    "require": {
+        "php": "7.4",
+        "guzzlehttp/guzzle": "7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Anju\\Searchengine\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
